@@ -1,0 +1,133 @@
+html, body {
+  font-size:  16px;
+  max-height:  100%;
+  margin:  0;
+  padding:  0;
+  max-width:  100%;
+}
+
+body {
+  background-color: #C3D7DE;
+  font-family: 'Trebuchet MS', sans-serif;
+}
+
+.container {
+  height: 100%;
+  margin: 0.5rem;
+  max-width: 100%;
+  text-align: center;
+}
+
+h1 {
+  color: #F4FDFB;
+  margin: 0 auto;
+  padding: 0;
+  font-size: 2.5rem;
+  letter-spacing: 0.05rem;
+  text-decoration: none;
+  text-align: center;
+  text-shadow: 3px 1px 1px #000;
+}
+
+form {
+  margin: 10px 0 0;
+}
+
+input#inputNum {
+  border:  2px solid #2A2A2A;
+  border-radius: 5px;
+  font-family: Consolas, monospace;
+  font-size: 1.3rem;
+  font-weight: bolder;
+  height: 5vh;
+  margin: 5px auto;
+  padding: 5px;
+  text-align: center;
+  width: 30%;
+}
+
+button#fibNum {
+  font-size: 1rem;
+  margin: 10px 0;
+}
+
+table {
+  background-color: #ECEFF0;
+  border-collapse: collapse;
+  border: 2px solid #000;
+  float: left;
+  margin: 10px auto;
+  width: 100%;
+}
+
+td {
+  border: 2px solid #000;
+  color: #0F9B0F;
+  font-family: Consolas, monospace;
+  font-size: 200%;
+  font-weight: 900;
+  height: 30vh;
+  text-align: center;
+  vertical-align: middle;
+  width: 20%;
+}
+
+#td0, #td1, #td2, #td3, #td4, #td5, #td6, #td7, #td8, #td9 {
+  opacity: 0;
+}
+
+input#fibExplanation {
+  font-size: 1rem;
+  margin-top: 15px;
+}
+
+#fibModal {
+  background: rgba(0,0,0,0.8);
+  border:  2px solid #0582C2;
+  border-radius: 10px;
+  color: #FFF;
+  height: 80%;
+  left: 5%;
+  padding: 0;
+  position: absolute;
+  text-align: left;
+  top: -90%;
+  width: 90%;
+  z-index: 100;
+}
+
+#fibModal p {
+  font-size: 1.5rem;
+  padding: 15px;
+  margin: 0;
+}
+
+#fibModal a {
+  color: #00FFFF;
+  text-decoration: none;
+}
+
+#fibModal a:hover {
+  color: #FFF;
+  text-decoration: underline;
+}
+
+.consolasFont {
+  font-family: Consolas, monsospace;
+}
+
+@media screen and (max-width: 640px) {
+
+  input#inputNum {
+    width: 80%;
+  }
+
+  td {
+    font-size: 100%;
+  }
+
+  #fibModal p {
+    font-size: 1.2rem;
+  }
+}
+
